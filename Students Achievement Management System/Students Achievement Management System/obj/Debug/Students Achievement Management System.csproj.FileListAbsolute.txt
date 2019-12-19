@@ -1,0 +1,24 @@
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\bin\Debug\Students Achievement Management System.exe.config
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\bin\Debug\Students Achievement Management System.exe
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\bin\Debug\Students Achievement Management System.pdb
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students Achievement Management System.csprojAssemblyReference.cache
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.Properties.Resources.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students Achievement Management System.csproj.GenerateResource.cache
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students Achievement Management System.exe
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students Achievement Management System.pdb
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.MainForm.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.SubjectEditor.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\bin\Debug\TextureResources\main_icon.ico
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.SubjectEditor_EditSubject.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Interop.Microsoft.Office.Interop.Excel.dll
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Interop.Office.dll
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Interop.VBIDE.dll
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students Achievement Management System.csproj.ResolveComReference.cache
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.ProcessingDialog.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.StudentEditor.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.OKDialogWithCheckBox.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students_Achievement_Management_System.StudentScoreEditor.resources
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\bin\Debug\Newtonsoft.Json.dll
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\bin\Debug\Newtonsoft.Json.xml
+C:\编程相关\计算导论程序设计课实验\第一学期\期末课程设计\SAMS\Students Achievement Management System\Students Achievement Management System\obj\Debug\Students Achievement Management System.csproj.CopyComplete

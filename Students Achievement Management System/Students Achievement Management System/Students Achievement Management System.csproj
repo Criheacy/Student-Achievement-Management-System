@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EFE56E61-9DB5-42CD-836D-C3670B4A5C9B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Students_Achievement_Management_System</RootNamespace>
+    <AssemblyName>Students Achievement Management System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExcelFormProcesser.cs" />
+    <Compile Include="JsonReader.cs" />
+    <Compile Include="ListViewCell.cs" />
+    <Compile Include="OKDialogWithCheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OKDialogWithCheckBox.Designer.cs">
+      <DependentUpon>OKDialogWithCheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProcessingDialog.Designer.cs">
+      <DependentUpon>ProcessingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentClass.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentComparer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="StudentEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentEditor.Designer.cs">
+      <DependentUpon>StudentEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentScoreEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentScoreEditor.Designer.cs">
+      <DependentUpon>StudentScoreEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StudentSearcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubjectClass.cs" />
+    <Compile Include="SubjectEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubjectEditor.Designer.cs">
+      <DependentUpon>SubjectEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubjectEditor_EditSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubjectEditor_EditSubject.Designer.cs">
+      <DependentUpon>SubjectEditor_EditSubject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeExtensions.cs" />
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OKDialogWithCheckBox.resx">
+      <DependentUpon>OKDialogWithCheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProcessingDialog.resx">
+      <DependentUpon>ProcessingDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="StudentEditor.resx">
+      <DependentUpon>StudentEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentScoreEditor.resx">
+      <DependentUpon>StudentScoreEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubjectEditor.resx">
+      <DependentUpon>SubjectEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubjectEditor_EditSubject.resx">
+      <DependentUpon>SubjectEditor_EditSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TextureResources\main_icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Office">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>99</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
